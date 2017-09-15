@@ -1,6 +1,23 @@
 {
   "short_name": "MyPWA",
   "name": "My PWA",
+  "icons": [
+    {
+      "src": "images/launcher-icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/launcher-icon@2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/launcher-icon@3x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "start_url": "index.html",
   "background_color": "#272833",
   "display": "standalone",
