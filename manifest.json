@@ -1,0 +1,9 @@
+{
+  "short_name": "MyPWA",
+  "name": "My PWA",
+  "start_url": "index.html",
+  "background_color": "#272833",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#272833"
+}
