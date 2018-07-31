@@ -354,11 +354,11 @@
      * scenario could guess the user's location via IP lookup and then inject
      * that data into the page.
      */
-    app.updateForecastCard(initialWeatherForecast);
+/*    app.updateForecastCard(initialWeatherForecast);
     app.selectedCities = [
       {key: initialWeatherForecast.key, label: initialWeatherForecast.label}
     ];
-    app.saveSelectedCities();
+    app.saveSelectedCities();*/
   }
   
   // TODO add service worker code here
