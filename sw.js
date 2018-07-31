@@ -1,4 +1,19 @@
 var CACHE_NAME = 'static-v1.1';
+/*[
+          '/',
+          '/index.html',
+          '/manifest.json',
+          '/js/app.js',
+          '/css/style.css'
+      ]*/
+
+var urlsToCache = [
+  '.',
+  'index.html',
+  'manifest.json',
+  'js/app.js',
+  'css/style.css'
+];
 
 /**
  * Install PWA.
@@ -6,13 +21,7 @@ var CACHE_NAME = 'static-v1.1';
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll([
-          '/',
-          '/index.html',
-          '/manifest.json',
-          '/js/app.js',
-          '/css/style.css'
-      ]);
+      return cache.addAll(urlsToCache);
     })
   )
 });
